@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pharmacy and Drug - Your personal medication companion. Search FDA drug database, find nearby pharmacies, and manage your medications.">
+    <meta name="keywords" content="pharmacy, medication, drug search, FDA, healthcare, iOS app">
+    <meta name="author" content="John Xu">
+    
+    <title>Pharmacy Helper - Your Personal Medication Companion</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Font Awesome for icons (optional, you can use emojis instead) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="app-icon">💊</span>
+                <span class="brand-name">Pharmacy Drug</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#tech">Technology</a></li>
+                <li><a href="#developer">Developer</a></li>
+                <li><a href="#download" class="btn-primary">Download</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge">iOS 17+</span>
+                    <h1>Pharmacy Helper</h1>
+                    <p class="hero-subtitle">Your personal medication companion</p>
+                    <p class="hero-description">
+                        Discover medications, explore nearby pharmacies via map and GPS, 
+                        schedule medication reminders, organize your personal drug list, 
+                        and monitor drug recall updates.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-large btn-primary">
+                            <i class="fab fa-apple"></i> Download on App Store
+                        </a>
+                        <a href="#features" class="btn btn-large btn-secondary">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="app-icon-large">
+                            <span class="icon-symbol">⚕️</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Features</span>
+                <h2>Everything you need for medication management</h2>
+                <p>Powerful tools to help you manage your health and stay informed</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon purple-gradient">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <h3>Drug Search</h3>
+                    <p>Search FDA's comprehensive drug database by name or NDC code. Access detailed information about medications instantly.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon blue-gradient">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Pharmacy Finder</h3>
+                    <p>Find nearby pharmacies using GPS and Apple Maps integration. Get directions and contact information easily.</p>
+                </div>
+
+                <div class="feature-card premium">
+                    <div class="feature-icon orange-gradient">
+                        <i class="fas fa-prescription-bottle"></i>
+                    </div>
+                    <h3>My Drugs <span class="premium-badge">👑</span></h3>
+                    <p>Manage your personal medication list and track usage. Keep all your medications organized in one place.</p>
+                </div>
+
+                <div class="feature-card premium">
+                    <div class="feature-icon teal-gradient">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Pill Reminders <span class="premium-badge">👑</span></h3>
+                    <p>Never miss a dose with customizable medication reminders. Set up daily schedules for all your medications.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon red-gradient">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Drug Recalls</h3>
+                    <p>Stay informed about FDA drug recalls and safety alerts. Get real-time updates on medication safety.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon green-gradient">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>Your data stays on your device. No account required, no data collection, complete privacy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section id="screenshots" class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Screenshots</span>
+                <h2>Beautiful and intuitive design</h2>
+                <p>Modern iOS interface built with SwiftUI</p>
+            </div>
+            
+            <div class="screenshots-grid">
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <i class="fas fa-home"></i>
+                        <p>Home Screen</p>
+                    </div>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <i class="fas fa-search"></i>
+                        <p>Drug Search</p>
+                    </div>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <i class="fas fa-map"></i>
+                        <p>Pharmacy Finder</p>
+                    </div>
+                </div>
+                <div class="screenshot-placeholder">
+                    <div class="placeholder-content">
+                        <i class="fas fa-list"></i>
+                        <p>My Medications</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="screenshots-note">
+                <i class="fas fa-info-circle"></i>
+                Replace these placeholders with actual app screenshots
+            </p>
+        </div>
+    </section>
+
+    <!-- Technology Section -->
+    <section id="tech" class="technology">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Technology</span>
+                <h2>Built with modern Apple technologies</h2>
+                <p>Leveraging the latest iOS frameworks for the best experience</p>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Swift & SwiftUI</h3>
+                    <p>Built with modern Swift and declarative SwiftUI framework</p>
+                </div>
+
+                <div class="tech-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SwiftData</h3>
+                    <p>Local data persistence using Apple's SwiftData framework</p>
+                </div>
+
+                <div class="tech-card">
+                    <i class="fas fa-map"></i>
+                    <h3>MapKit</h3>
+                    <p>Apple Maps integration for pharmacy locations and directions</p>
+                </div>
+
+                <div class="tech-card">
+                    <i class="fas fa-link"></i>
+                    <h3>openFDA API</h3>
+                    <p>FDA drug database and recall information from openFDA.gov</p>
+                </div>
+
+                <div class="tech-card">
+                    <i class="fas fa-location-arrow"></i>
+                    <h3>Core Location</h3>
+                    <p>GPS-based nearby pharmacy search with location services</p>
+                </div>
+
+                <div class="tech-card">
+                    <i class="fas fa-bell"></i>
+                    <h3>Notifications</h3>
+                    <p>Local notifications for medication reminders</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Developer Section -->
+    <section id="developer" class="developer">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Developer</span>
+                <h2>About the Developer</h2>
+            </div>
+            
+            <div class="developer-content">
+                <div class="developer-image">
+                    <div class="avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="developer-info">
+                    <h3>John Xu</h3>
+                    <p class="developer-role">iOS Developer</p>
+                    <p class="developer-bio">
+                        Passionate about creating helpful healthcare applications that make a 
+                        difference in people's daily lives. Committed to building intuitive, 
+                        privacy-focused apps using the latest Apple technologies.
+                    </p>
+                    <div class="developer-links">
+                        <a href="mailto:your.email@example.com" class="social-link" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://github.com/yourusername" class="social-link" title="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://yourwebsite.com" class="social-link" title="Website" target="_blank">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" class="social-link" title="Twitter" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credits Section -->
+    <section class="credits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Credits & Attribution</h2>
+            </div>
+            
+            <div class="credits-grid">
+                <div class="credit-card">
+                    <h3>openFDA</h3>
+                    <p>Drug database and recall information</p>
+                    <a href="https://open.fda.gov/" target="_blank" class="credit-link">
+                        Visit openFDA.gov <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+
+                <div class="credit-card">
+                    <h3>Apple MapKit</h3>
+                    <p>Maps and location services</p>
+                </div>
+
+                <div class="credit-card">
+                    <h3>SF Symbols</h3>
+                    <p>Beautiful iconography throughout the app</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to get started?</h2>
+                <p>Download Pharmacy Helper today and take control of your medication management</p>
+                <a href="#" class="btn btn-large btn-white">
+                    <i class="fab fa-apple"></i> Download on the App Store
+                </a>
+                <p class="download-note">Coming soon to the App Store</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="app-icon">💊</span>
+                    <span>Pharmacy Helper</span>
+                </div>
+                <p class="footer-tagline">Made with ❤️ for better healthcare</p>
+                <p class="footer-copyright">© 2026 Pharmacy Helper. All rights reserved.</p>
+                <p class="footer-attribution">Data provided by openFDA.gov</p>
+            </div>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#support">Support</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
